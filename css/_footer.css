@@ -1,0 +1,12 @@
+footer {
+  max-width: 100%;
+  position: relative; }
+  footer .grid-footer {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    grid-gap: 2rem;
+    padding-left: 80px;
+    padding-right: 80px;
+    -ms-grid-columns: 40% (1fr)[3];
+    grid-template-columns: 40% repeat(3, 1fr); }
